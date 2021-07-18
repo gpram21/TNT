@@ -1,0 +1,31 @@
+[
+  {
+    "id":1,
+    "SeacrhTypeVal": "people",
+    "character": "DaRth vader",
+    "Value1": "Gender: male",
+    "Value2": "Birth year: 41.9BBY",
+    "Value3": "Eye color: yellow",
+    "Value4": "Skin color: white"
+  },
+{
+  "id":2,
+  "SeacrhTypeVal": "people",
+  "character": "test",
+  "Value1": "Not found."
+},
+{
+  "id":3,
+  "SeacrhTypeVal": "planets",
+  "character": "test",
+  "Value1": "Not found."
+},
+{
+  "id":4,
+  "SeacrhTypeVal": "planets",
+  "character": "HoTH",
+  "Value1": "Population: unknown",
+  "Value2": "Climate: frozen",
+  "Value3": "Gravity: 1.1 standard"
+}
+] 

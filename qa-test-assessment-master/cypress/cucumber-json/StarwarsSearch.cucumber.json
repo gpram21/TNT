@@ -1,0 +1,352 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify the search results with star wars characters",
+    "line": 2,
+    "id": "verify-the-search-results-with-star-wars-characters",
+    "tags": [],
+    "uri": "StarwarsSearch.feature",
+    "elements": [
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-valid-character-which-leads-to-multiple-result",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Search with a valid character which leads to multiple result",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 8097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I search for \"Darth\" as \"people\"",
+            "result": {
+              "status": "passed",
+              "duration": 921000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I see results1 \"Gender: male\" and \"Birth year: 41.9BBY\" and \"Eye color: yellow\" and \"Skin color: white\"",
+            "result": {
+              "status": "passed",
+              "duration": 746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see results2 \"Gender: male\" and \"Birth year: 54BBY\" and \"Eye color: yellow\" and \"Skin color: red\"",
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-valid-characters-and-planets",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Search with a valid characters and Planets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 1036000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I search for \"Darth vader\" as \"people\"",
+            "result": {
+              "status": "passed",
+              "duration": 723000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I see details \"Gender: male\" and \"Birth year: 41.9BBY\" and \"Eye color: yellow\" and \"Skin color: white\" and \"people\"",
+            "result": {
+              "status": "passed",
+              "duration": 420000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-valid-characters-and-planets",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Search with a valid characters and Planets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I search for \"Yoda\" as \"people\"",
+            "result": {
+              "status": "passed",
+              "duration": 615000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I see details \"Gender: male\" and \"Birth year: 896BBY\" and \"Eye color: brown\" and \"Skin color: green\" and \"people\"",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-valid-characters-and-planets",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Search with a valid characters and Planets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 749000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I search for \"Hoth\" as \"planets\"",
+            "result": {
+              "status": "passed",
+              "duration": 635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I see details \"Population: unknown\" and \"Climate: frozen\" and \"Gravity: 1.1 standard\" and \"\" and \"planets\"",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-valid-characters-and-planets",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Search with a valid characters and Planets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 734000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I search for \"Naboo\" as \"planets\"",
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I see details \"Population: 4500000000\" and \"Climate: temperate\" and \"Gravity: 1 standard\" and \"\" and \"planets\"",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-invalid-characters-and-planets",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Search with a invalid characters and planets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I search for \"Test\" as \"people\"",
+            "result": {
+              "status": "passed",
+              "duration": 597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I see no result \"Not found.\"",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-invalid-characters-and-planets",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Search with a invalid characters and planets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I search for \"Test\" as \"planets\"",
+            "result": {
+              "status": "passed",
+              "duration": 580000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I see no result \"Not found.\"",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-valid-characters-and-empty-planets",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Search with a valid characters and empty Planets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I search for \"Darth vader\" as \"people\"",
+            "result": {
+              "status": "passed",
+              "duration": 708000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I search for \"\" as \"planets\"",
+            "result": {
+              "status": "passed",
+              "duration": 443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I see no result \"Not found.\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<div>' to have text 'Not found.', but the text was 'Darth VaderGender: male Birth year: 41.9BBY Eye color: yellow Skin color: white '\n    + expected - actual\n\n    -'Darth VaderGender: male Birth year: 41.9BBY Eye color: yellow Skin color: white '\n    +'Not found.'\n\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress\\support\\index.js:107:34)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
