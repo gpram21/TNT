@@ -2,17 +2,7 @@
 Feature: Verify the search results with star wars characters
   
  
-  Scenario Outline: Search with a valid character which leads to multiple result
-      Given I navigate to StarWarssearchpage
-      When I search for "<Name>" as "<searchType>"
-      Then I see results1 "<Row1>" and "<Row2>" and "<Row3>" and "<Row4>"
-      And I see results2 "<Row5>" and "<Row6>" and "<Row7>" and "<Row8>"
-      
-
-       Examples:
-     |    Name        |searchType| Row1|Row2|Row3|Row4|Row5|Row6|Row7|Row8|
-     |    Darth |   people |    Gender: male |Birth year: 41.9BBY|Eye color: yellow|Skin color: white|Gender: male|Birth year: 54BBY|Eye color: yellow|Skin color: red|       
-
+  
   
   Scenario Outline: Search with a valid characters and Planets
     Given I navigate to StarWarssearchpage
@@ -52,6 +42,17 @@ Feature: Verify the search results with star wars characters
      |    Darth vader |   people |    Not found.|
 
   
+  Scenario Outline: Search with a valid character which leads to multiple result
+      Given I navigate to StarWarssearchpage
+      When I search for "<Name>" as "<searchType>"
+      Then I see results1 "<Row1>" and "<Row2>" and "<Row3>" and "<Row4>"
+      And I see results2 "<Row5>" and "<Row6>" and "<Row7>" and "<Row8>"
+      
+
+       Examples:
+     |    Name        |searchType| Row1|Row2|Row3|Row4|Row5|Row6|Row7|Row8|
+     |    Darth |   people |    Gender: male |Birth year: 41.9BBY|Eye color: yellow|Skin color: white|Gender: male|Birth year: 54BBY|Eye color: yellow|Skin color: red|       
+
  
 
 

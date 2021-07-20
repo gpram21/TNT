@@ -1,6 +1,7 @@
 {
     
     "env":{
+    "url":"http://localhost:4200/",  
     "testFiles": "**/*.feature"
   }
 }

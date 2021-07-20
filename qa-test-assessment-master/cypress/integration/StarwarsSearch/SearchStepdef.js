@@ -1,17 +1,27 @@
 import {Given,When,Then} from "cypress-cucumber-preprocessor/steps";
 import SearchPage from '../Fedex/pageoObjects/SearchPage.js'
+/// <reference types="Cypress" />
 
 
 Given('I navigate to StarWarssearchpage', () => {
-  cy.visit('http://localhost:4200/')
+  cy.visit(Cypress.env('url')) 
 })
 
 When('I search for {string} as {string}', function(SrchCriteria,Srchtype)  {
     const srchPage = new  SearchPage()
-    cy.get('#'+ Srchtype).click()
+    cy.get('#'+ Srchtype).then(($text) => {
+        
+    })
+    //wait for the page to be loaded and select the search type
+    cy.get('#'+ Srchtype).should('be.visible').then((rdButton) => {
+    rdButton.click() })
+    
+    //There are scenarios where we switch between people and planet search, let's clear the etxt first
     srchPage.getEditBox().clear()
+    //If the feature sends an empty string, handle it
     if(SrchCriteria != '')
-        srchPage.getEditBox().type(SrchCriteria)       
+        srchPage.getEditBox().type(SrchCriteria)     
+    //Click on the search button  
     srchPage.getButton().click()
   })
 
@@ -25,9 +35,6 @@ Then('I see no result {string}', function(R1)  {
 
 Then('I see results1 {string} and {string} and {string} and {string}', function(R1,R2,R3,R4)  {
     let values_set1 = []
-
-    cy.pause
-
     cy.get(':nth-child(1) > app-character > .card > .card-body')
     .find('div.row')
     .each(($el, $index) => {
