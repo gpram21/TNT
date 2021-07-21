@@ -1,5 +1,8 @@
 This is the FedEx QA protractor assessment project.
 
+Please note that this assessment is done in Cypress and the details are in Fedex-main\StarwarsTesting\qa-test-assessment-master\ASSESSMENT-SOLUTION.MD
+
+
 Please refer to the folder: qa-test-assessment-master for the application code & the protractor tests.
 
 Also in this folder:
