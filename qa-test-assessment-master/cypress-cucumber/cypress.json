@@ -1,0 +1,5 @@
+{
+    "baseUrl": "http://localhost:4200/",
+    "requestTimeout": 20000,
+    "responseTimeout": 20000
+}

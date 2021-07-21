@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify the search results with star wars characters",
+    "line": 1,
+    "id": "verify-the-search-results-with-star-wars-characters",
+    "tags": [],
+    "uri": "Starwars.feature",
+    "elements": [
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-valid-characters",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Search with a valid characters",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 5608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I search for \"Darth Vader\" as \"peopleRadio\"",
+            "result": {
+              "status": "passed",
+              "duration": 768000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see peopledetails \"Darth Vader\" and \"male\" and \"41.9BBY\" and \"yellow\" and \"white\" and \"peopleRadio\"",
+            "result": {
+              "status": "passed",
+              "duration": 696000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-the-search-results-with-star-wars-characters;search-with-a-valid-planets",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Search with a valid Planets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I navigate to StarWarssearchpage",
+            "result": {
+              "status": "passed",
+              "duration": 1006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I search for \"Hoth\" as \"planetRadio\"",
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I see planetdetails \"Hoth\" and \"unknown\" and \"frozen\" and \"1.1 standard\" and \"planetRadio\"",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

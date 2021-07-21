@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "./node_modules/protractor/bin/webdriver-manager update"
+    "postinstall": "./node_modules/protractor/bin/webdriver-manager update",
+    "test:cypress": "npx cypress open"
   },
   "private": true,
   "dependencies": {
@@ -65,5 +66,5 @@
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
-  }
+  }  
 }

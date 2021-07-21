@@ -1,0 +1,34 @@
+[
+  {
+    "id":0,
+    "SeacrhTypeVal": "people",
+    "character": "Darth Vader",
+    "Gender": "male",
+    "BirthYear": "41.9BBY",
+    "EyeColor": "yellow",
+    "SkinColor": "white"
+  },
+  {
+    "id":1,
+    "SeacrhTypeVal": "planets",
+    "PlanetName": "Hoth",
+    "PlanetPopulation": "unknown",
+    "PlanetClimate": "frozen",
+    "PlanetGravity": "1.1 standard"
+  },
+  {
+    "id":2,
+    "SeacrhTypeVal": "people",
+    "character": "Darth",
+    "character1": "Darth Vader",
+    "Gender1": "male",
+    "BirthYear1": "41.9BBY",
+    "EyeColor1": "yellow",
+    "SkinColor1": "white",
+    "character2": "Darth Maul",
+    "Gender2": "male",
+    "BirthYear2": "41.9BBY",
+    "EyeColor2": "yellow",
+    "SkinColor2": "white"
+  }
+]
