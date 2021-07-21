@@ -22,7 +22,7 @@
             "name": "I navigate to StarWarssearchpage",
             "result": {
               "status": "passed",
-              "duration": 5608000000
+              "duration": 6420000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I search for \"Darth Vader\" as \"peopleRadio\"",
             "result": {
               "status": "passed",
-              "duration": 768000000
+              "duration": 787000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I see peopledetails \"Darth Vader\" and \"male\" and \"41.9BBY\" and \"yellow\" and \"white\" and \"peopleRadio\"",
             "result": {
               "status": "passed",
-              "duration": 696000000
+              "duration": 1062000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "I navigate to StarWarssearchpage",
             "result": {
               "status": "passed",
-              "duration": 1006000000
+              "duration": 769000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I search for \"Hoth\" as \"planetRadio\"",
             "result": {
               "status": "passed",
-              "duration": 464000000
+              "duration": 462000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I see planetdetails \"Hoth\" and \"unknown\" and \"frozen\" and \"1.1 standard\" and \"planetRadio\"",
             "result": {
               "status": "passed",
-              "duration": 131000000
+              "duration": 181000000
             }
           }
         ]
